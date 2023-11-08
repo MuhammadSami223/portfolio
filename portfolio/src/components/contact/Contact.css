@@ -1,0 +1,45 @@
+.contact{
+    margin-left: 64px;
+    font-weight: 700;
+}
+
+.form .input{
+    width: 20rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px; 
+    margin-top: 34px;
+    font-family: Gumela;
+}
+.form .message{
+height: 6rem;
+padding-left: 8px;
+padding-bottom: 62px;
+}
+.contact-btn{
+    margin-top: 23px;
+    margin-left: 150px;
+}
+
+.contactme{
+    color: var(--orange);
+    margin-left: 64px;
+    font-weight: 700;
+    font-size: 34px;
+}
+.box-shadow{
+    color: var(--box-shadow);
+}
+.s-blur1{
+    top: 39rem;
+    left: 34rem;
+}
+.reply{
+  
+    margin-left: 184px;
+    font-size: 19px;
+
+}

@@ -1,0 +1,44 @@
+.email{
+    position: absolute;
+    margin-top: -193px;
+    margin-left: 680px;
+    color: white;
+    /* font-size: 19px; */
+    scale: 1.2;
+}
+.icons1 a{
+    color: white;
+    margin-top: 54px;
+    margin-left: 10px;
+}
+.top{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 35px;
+    width: 33px;
+    padding-left: 4px;
+    font-size: 19px;
+    scale: 1.2;
+    color: black;
+    margin-left: 310px;
+    margin-top: 122px;
+
+}
+.scrolltop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 680px;
+    border-radius: 50%;
+    height: 47px;
+    width: 44px;
+    border: none;
+    color: #FCA61F;
+   
+    position: fixed;
+
+    bottom: 30px;
+}
+.scrolltop .span{
+    font-size: 22px;
+}

@@ -1,0 +1,26 @@
+.toggle{
+
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid var(--orange);
+    position: relative;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-top: -57px;
+    margin-left: 167px;
+    padding-left: 5px;
+    padding-right: 9px;
+}
+.moon{
+    padding-right: 9px;
+}
+.toggle>*{
+    color: var(--orange);
+}
+.t-button{
+    position: absolute;
+    border-radius: 100%;
+    background: var(--orange);
+    width: 31px;
+    margin-left: 28px;
+}

@@ -1,0 +1,128 @@
+.skills{
+    background: #333;
+    margin-top: 320px;
+width: 500px;
+margin: 336px auto;
+color:black;
+padding: 20px;
+box-shadow: 0px 14px 28px rgba(0,0,0,0.25) 0px 10px 10px rgba(0,0,0,0.22);
+background: transparent;
+margin-left:  337px;
+}
+.skills1{
+    background: #333;
+width: 500px;
+margin: 336px auto;
+color:black;
+padding: 20px;
+box-shadow: 0px 14px 28px rgba(0,0,0,0.25) 0px 10px 10px rgba(0,0,0,0.22);
+background: transparent;
+margin-left: 828px;
+margin-top: -713px;
+}
+.skills h1{
+    margin-left: 409px;
+    margin-top: 160px;
+    width: 200px;
+    color: #FCA61F;
+    margin-bottom: 38px;
+}
+.skills1 h1{
+    margin-left: 388px;
+    margin-top: 88px;
+    width: 200px;
+    color:#FCA61F;
+}
+.skills li{
+    margin: -6px 0;
+    list-style: none;
+    padding: 10px;
+    scale: 0.8;
+    
+}
+.skills1 li{
+    margin: -6px 0;
+    list-style: none;
+    padding: 10px;
+    scale: 0.8;
+    
+}
+.percentage{
+    margin-left: 321px;
+    font-size: 26px;
+
+}
+.javapercentage{
+ margin-left: 222px;   
+}
+.bar{
+    background: #353b48;
+    height: 20px;
+    display: block;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12) 0px 1px 2px rgba(0,0,0,0.24);
+    transition: all ease 0.5s  cubic-bezier(.25 ,.8 ,.25 ,.1);
+}
+.bar:hover{
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25) 0px 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background-image:linear-gradient(to left,#F5C32C, #FCA61F, #FCA61F);
+
+}
+.html{
+        width: 95%;
+        animation: html 3s;
+
+}
+.Css{
+        width: 85%;
+        animation: css 3s;
+
+}
+.Javascript{
+        width: 65%;
+        animation: Javascript 3s;
+
+}
+.React{
+        width: 75%;
+        animation: React 3s;
+
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:95%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes React{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
